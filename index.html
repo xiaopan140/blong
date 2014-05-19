@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery超酷3D轮播器/3D幻灯片切换-前端开发-BeondWeb.cn</title>
+	<link rel="stylesheet" href="css/ccslider.css">
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<!-- slider -->
+	<div id="slider" class="ccslider">
+		<div class="slider-innerWrapper">
+			<img src="images/slide01.jpg" alt="" data-href="http://beyondweb.cn/" data-transition="{&quot;effect&quot;: &quot;cubeUp&quot;, &quot;slices&quot;: 3, &quot;animSpeed&quot;: 1200, &quot;delay&quot;: 100, &quot;delayDir&quot;: &quot;fromCentre&quot;, &quot;easing&quot;: &quot;easeInOutBack&quot;, &quot;depthOffset&quot;: 300, &quot;sliceGap&quot;: 30}">
+			<img src="images/slide02.jpg" alt="" data-href="http://beyondweb.cn/" data-transition="{&quot;effect&quot;: &quot;cubeRight&quot;, &quot;slices&quot;: 3, &quot;delay&quot;: 200}">
+			<img src="images/slide03.jpg" alt="" data-href="http://beyondweb.cn/" data-transition="{&quot;effect&quot;: &quot;cubeDown&quot;, &quot;slices&quot;: 3, &quot;animSpeed&quot;: 3000, &quot;delay&quot;: 30, &quot;easing&quot;: &quot;easeInOutElastic&quot;, &quot;depthOffset&quot;: 200, &quot;sliceGap&quot;: 20}">
+			<img src="images/slide04.jpg" alt="" data-href="http://beyondweb.cn/" data-transition="{&quot;effect&quot;: &quot;cubeLeft&quot;, &quot;slices&quot;: 3, &quot;delay&quot;: 200, &quot;delayDir&quot;: &quot;toCentre&quot;}">
+		</div>
+		<div class="slider-controls">
+			<a class="slider-nav prev"></a>
+			<a class="slider-nav next"></a>
+		</div>
+		<ul class="control-links">
+			<li data-index="0" class="active">1</li>
+			<li data-index="1" class="">2</li>
+			<li data-index="2" class="">3</li>
+			<li data-index="3" class="">4</li>
+		</ul>
+	</div>
+	<!-- slider -->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.easing.1.3.min.js"></script>
+<script src="js/jquery.ccslider-2.0.1.min.js"></script>	
+<script src="js/scrollbox.js"></script>
+</body>
+</html>
